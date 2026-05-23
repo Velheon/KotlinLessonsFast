@@ -1,8 +1,10 @@
 fun main() {
     val user = "Иван"
     var time = "день"
-    println("Добрый $time, $user")
+    var hello = "Добрый $time, $user"
+    println(hello)
 
     time = "вечер"
-    println("Добрый $time, $user")
+    hello = "Добрый $time, $user"
+    println(hello)
 }
