@@ -3,15 +3,15 @@ package lessons_3
 fun main() {
     val num = 6
     val table = """
-        $num * 1 = ${(num * 1).toString().padStart(2, '0')}
-        $num * 2 = ${(num * 2).toString().padStart(2, '0')}
-        $num * 3 = ${(num * 3).toString().padStart(2, '0')}
-        $num * 4 = ${(num * 4).toString().padStart(2, '0')}
-        $num * 5 = ${(num * 5).toString().padStart(2, '0')}
-        $num * 6 = ${(num * 6).toString().padStart(2, '0')}
-        $num * 7 = ${(num * 7).toString().padStart(2, '0')}
-        $num * 8 = ${(num * 8).toString().padStart(2, '0')}
-        $num * 9 = ${(num * 9).toString().padStart(2, '0')}
+        $num x 1 = ${num * 1}
+        $num x 2 = ${num * 2}
+        $num x 3 = ${num * 3}
+        $num x 4 = ${num * 4}
+        $num x 5 = ${num * 5}
+        $num x 6 = ${num * 6}
+        $num x 7 = ${num * 7}
+        $num x 8 = ${num * 8}
+        $num x 9 = ${num * 9}
     """.trimIndent()
 
     println(table)
