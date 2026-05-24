@@ -1,6 +1,7 @@
 fun main() {
     val user = "Иван"
     var time = "день"
+
     println("Добрый $time, $user")
 
     time = "вечер"
