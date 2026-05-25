@@ -9,7 +9,7 @@ fun main() {
     val isFreeTomorrow = reservedTableTomorrow < TABLE_COUNT
 
     println(
-        "[Доступность столиков на сегодня: $isFreeToday], \n" +
+        "[Доступность столиков на сегодня: $isFreeToday],\n" +
         "[Доступность столиков на завтра: $isFreeTomorrow]"
     )
 }
