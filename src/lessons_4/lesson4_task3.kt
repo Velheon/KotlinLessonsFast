@@ -9,8 +9,8 @@ fun main() {
     val humidity = 20
     val season = "Зима"
 
-    val favorableConditions = isSunny && isTentOpen
-            && humidity == FAVORABLE_HUMIDITY && season != WINTER_SEASON
+    val favorableConditions = isSunny && isTentOpen &&
+            humidity == FAVORABLE_HUMIDITY && season != WINTER_SEASON
 
     println("Благоприятные ли условия сейчас для роста бобовых? $favorableConditions")
 }
