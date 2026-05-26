@@ -3,6 +3,7 @@ package lessons_4
 const val WEIGHT_MIN_AVERAGE = 35
 const val WEIGHT_MAX_AVERAGE = 100
 const val VOLUME_AVERAGE = 100
+
 fun main() {
     var weight = 20
     var volume = 80
