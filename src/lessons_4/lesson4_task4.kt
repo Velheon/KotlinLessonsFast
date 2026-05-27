@@ -2,8 +2,10 @@ package lessons_4
 
 fun main() {
     val day = 5
-    val isDayForArmsAndAbdominal = day % 2 == 1
-    val isDayForLegsAndBack = !isDayForArmsAndAbdominal
+
+    val isEven = day % 2 == 0
+    val isDayForArmsAndAbdominal = !isEven
+    val isDayForLegsAndBack = isEven
 
     println(
         "Упражнения для рук: $isDayForArmsAndAbdominal\n\n" +
