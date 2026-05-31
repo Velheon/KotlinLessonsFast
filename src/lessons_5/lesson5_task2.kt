@@ -3,7 +3,7 @@ package lessons_5
 const val AGE_OF_MAJORITY = 18
 
 fun main() {
-    val currentYear = 202
+    val currentYear = 2026
 
     println("Введите год вашего рождения:")
     val userBirthYear = readln().toInt()
