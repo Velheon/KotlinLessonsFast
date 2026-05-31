@@ -1,11 +1,11 @@
 package lessons_5
 
 fun main() {
-    val a = 5
-    val b = 9
-    val correctAns = a + b
+    val number1 = (0..10).random()
+    val number2 = (0..10).random()
+    val correctAns = number1 + number2
 
-    println("Для входа в программу решите пример:\n" + "$a + $b =")
+    println("Для входа в программу решите пример:\n$number1 + $number2 =")
     val userAns = readln().toInt()
 
     if (correctAns == userAns) {
