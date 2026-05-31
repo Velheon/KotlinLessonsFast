@@ -1,8 +1,8 @@
 package lessons_5
 
 fun main() {
-    val lotteryNum1 = 10
-    val lotteryNum2 = 20
+    val lotteryNum1 = (0..42).random()
+    val lotteryNum2 = (0..42).random()
 
     println("Введите лотерейный номер 1:")
     val userNum1 = readln().toInt()
