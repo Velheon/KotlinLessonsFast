@@ -1,16 +1,17 @@
 package lessons_5
 
-fun main() {
-    val userLogin = "Zaphod"
-    val userPassword = "PanGalactic"
+const val REGISTERED_LOGIN = "Zaphod"
+const val REGISTERED_PASSWORD = "PanGalactic"
 
-    println("Введите имя пользователя и пароль")
+fun main() {
+    println("Введите имя пользователя:")
     val inputLogin = readln()
-    val inputPassword = readln()
 
     when (inputLogin) {
-        userLogin -> {
-            if (inputPassword == userPassword) {
+        REGISTERED_LOGIN -> {
+            println("Пользователь зарегистрирован. Введите пароль:")
+            val inputPassword = readln()
+            if (inputPassword == REGISTERED_PASSWORD) {
                 println("Добро пожаловать на борт")
             } else {
                 println("Неправильный пароль")
