@@ -4,14 +4,14 @@ fun main() {
     val lotteryNumbers = listOf(
         (0..42).random(),
         (0..42).random(),
-        (0..42).random()
+        (0..42).random(),
     )
 
     println("Введите 3 лотерейных числа:")
     val userNumbers = listOf(
         readln().toInt(),
         readln().toInt(),
-        readln().toInt()
+        readln().toInt(),
     )
 
     val matchCount = lotteryNumbers.intersect(userNumbers).size
