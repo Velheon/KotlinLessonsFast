@@ -2,11 +2,10 @@ package lessons_6
 
 fun main() {
     println("Введите время в секундах:")
-    val seconds = readln().toInt()
-    var counterSeconds = seconds
+    var seconds = readln().toInt()
 
-    while (counterSeconds > 0) {
-        println("Осталось секунд: ${counterSeconds--}")
+    while (seconds > 0) {
+        println("Осталось секунд: ${seconds--}")
         Thread.sleep(1000)
     }
 
