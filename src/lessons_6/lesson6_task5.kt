@@ -14,12 +14,13 @@ fun main() {
         if (correctAns == userAns) {
             println("Добро пожаловать!")
             break
-        } else if (attemptCount > 1) {
-            attemptCount--
-            println("Капча решена неверно. Оставшееся количество попыток: $attemptCount")
         } else {
             attemptCount--
-            println("Доступ запрещен")
+            println("Капча решена неверно. Оставшееся количество попыток: $attemptCount")
         }
+    }
+
+    if (attemptCount == 0) {
+        println("Доступ запрещен")
     }
 }
