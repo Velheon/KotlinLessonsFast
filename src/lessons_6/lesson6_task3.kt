@@ -10,5 +10,5 @@ fun main() {
         Thread.sleep(1000)
     }
 
-    print("Время вышло")
+    println("Время вышло")
 }
